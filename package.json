@@ -1,0 +1,21 @@
+{
+  "name": "loja",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon --legacy-watch server.ts",
+    "build": "ts-node server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.4",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
